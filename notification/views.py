@@ -42,4 +42,4 @@ def send_notification(request: HttpRequest):
     except Exception as e:
         return JsonResponse({"error": f"Ошибка сервера: {str(e)}"}, status=500)
 
-# Create your views here.
+
